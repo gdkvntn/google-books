@@ -19,7 +19,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  const { status, error } = useSelector((state) => state.books);
+  const { status } = useSelector((state) => state.books);
 
   return (
     <>

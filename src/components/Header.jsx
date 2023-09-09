@@ -39,6 +39,7 @@ export default function Header() {
         <div className="mt-5 flex flex-col gap-4 max-w-sm w-full sm:flex-row">
           <input
             type="text"
+            aria-label="Search"
             className=" bg-gray-100 p-2 rounded  w-full"
             value={search}
             onKeyDown={(e) => (e.key === "Enter" ? searchLaunch() : null)}
